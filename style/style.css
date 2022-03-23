@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+}
+/* header style */
+.nav {
+  justify-content: space-around;
+  display: flex;
+  align-items: center;
+  height: 70px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #fff;
+}
+.logo {
+  width: 100px;
+}
+.header-left {
+  display: flex;
+}
+.header-middle {
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+}
+
+.header-middle li {
+  margin-right: 25px;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #686868;
+}
+
+.header-middle li:hover {
+  background-color: #ff284f;
+
+  color: #ffff;
+}
+
+.login-btn {
+  padding: 0.6rem 0.8rem;
+  border-radius: 5px;
+  font-size: 15px;
+  color: #ffff;
+  background-color: #393939;
+  border: 1px solid #393939;
+  margin-left: 2rem;
+  cursor: pointer;
+}
+.login-btn:hover {
+  color: #393939;
+  background-color: #ffff;
+  border: 1px solid #393939;
+}
+
+.header-left select {
+  border: none;
+  font-size: 1rem;
+}
+
+.option {
+  border: none;
+  font-size: 0.8rem;
+  width: 40px;
+  padding: 3rem;
+}
+/* hero section */
+.hero-section-with-cover {
+  background-color: #1a161f;
+  margin-top: 5%;
+  height: 600px;
+}
+.hero-section {
+  padding-top: 7rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.hero-left-section {
+  color: #ffff;
+}
+.hero-left-section img {
+  margin-left: 10em;
+}
+
+.hero-left-section h1 {
+  font-size: 2.5rem;
+}
+.hero-left-section p {
+  margin-top: 2rem;
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+.hero-img {
+  width: 500px;
+}
+
+.hero-label {
+  width: 25rem;
+  padding: 0.5rem;
+  display: flex;
+  background-color: #2b2533;
+}
+
+.hero-label select {
+  width: 15rem;
+  height: 3rem;
+  border-radius: 5px;
+  font-size: 1rem;
+  padding: 0.5rem;
+}
+
+.hero-btn {
+  width: 10rem;
+  border-radius: 5px;
+  background-color: #27895d;
+  color: #fff;
+  font-size: 1rem;
+  margin-left: 0.3rem;
+  border: none;
+}
+
+/* course section  */
+
+.course-section {
+  margin-top: 5rem;
+}
+
+.course-section-heading {
+  text-align: center;
+}
+
+.course-section-heading h2 {
+  font-size: 2rem;
+}
+.course-section-heading p {
+  font-size: 1.3rem;
+  margin-top: 1rem;
+  margin-bottom: 2.5rem;
+}
+
+.course-area {
+  background-color: #f7f8fa;
+  width: 600vw;
+  display: flex;
+  padding: 0.6rem;
+  width: 75vw;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.course button {
+  background-color: #ffff;
+  width: 15rem;
+  font-size: 1.3rem;
+  padding: 1rem;
+  border-radius: 5px;
+  border: none;
+  margin-right: 1rem;
+}
+
+.course button:hover {
+  border: 1px solid #15803d;
+  color: #15803d;
+}
