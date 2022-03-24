@@ -5,10 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <script
-      src="https://kit.fontawesome.com/44bdd065c1.js"
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
       crossorigin="anonymous"
-    ></script>
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style/style.css" />
   </head>
   <body>
@@ -31,7 +40,8 @@
           <option class="option" value="English">English</option>
         </select>
         <button class="login-btn">
-          <i class="fa-light fa-arrow-right-to-bracket"></i>লগ-ইন
+          <i id="login-icon" class="fa-solid fa-arrow-right-to-bracket"></i
+          >লগ-ইন
         </button>
       </div>
     </nav>
@@ -39,13 +49,15 @@
     <div class="hero-section-with-cover">
       <div class="hero-section">
         <div class="hero-left-section">
-          <h1>ঘরে বসে পড়াশোনার</h1>
-          <img src="img/underline.webp" alt="" />
-          <h1>সহজ সমাধান</h1>
+          <h1>
+            ঘরে বসে
+            <span> পড়াশোনার <img src="img/underline.webp" alt="" /></span>
+            <br>
+            সহজ সমাধান
+          </h1>
           <p>
             ক্লাস ১-১২, ভর্তি পরীক্ষা, বিশ্ববিদ্যালয় ও চাকরি পরীক্ষা প্রস্তুতির
-            জন্য পাবে <br />
-            স্পেশাল কোর্স, মডেল টেস্টসহ সার্বক্ষণিক দিকনির্দেশনা
+            জন্য পাবে স্পেশাল কোর্স, মডেল টেস্টসহ সার্বক্ষণিক দিকনির্দেশনা
           </p>
           <div class="hero-label">
             <select name="" id="">
@@ -81,16 +93,77 @@
       </div>
       <div class="course-area">
         <div class="course">
-          <button>ক্লাস ১-১২</button>
+          <button>
+            <i style="color: #5badc9" class="fa-solid fa-book-open"></i>ক্লাস
+            ১-১২
+          </button>
         </div>
         <div class="course">
-          <button>ভর্তি পরীক্ষা</button>
+          <button>
+            <i style="color: #17b992" class="fa-solid fa-graduation-cap"></i
+            >ভর্তি পরীক্ষা
+          </button>
         </div>
         <div class="course">
-          <button>চাকরি প্রস্তুতি</button>
+          <button>
+            <i style="color: #0e86ca" class="fa-solid fa-bag-shopping"></i>চাকরি
+            প্রস্তুতি
+          </button>
         </div>
         <div class="course">
-          <button>কোর্স সমূহ</button>
+          <button>
+            <i style="color: #8e42e9" class="fa-solid fa-rocket"></i>কোর্স সমূহ
+          </button>
+        </div>
+      </div>
+      <div class="feature-section">
+        <div class="feature">
+          <i><img src="img/icon-video.webp" alt="" /></i>
+          <h5>ভিডিও লেকচার</h5>
+          <p>
+            শেখো নিজের ইচ্ছেমতো, পেয়ে যাও ২০ <br />
+            হাজারেরও বেশি ভিডিও লেকচার
+          </p>
+        </div>
+        <div class="feature">
+          <i><img src="img/icon-practice.webp" alt="" /></i>
+          <h5>সুবিধামত অনুশীলন</h5>
+          <p>
+            অনুশীলন করো সুবিধামত সময়ে, <br />
+            মুহূর্তেই দেখে নাও তোমার স্কোর
+          </p>
+        </div>
+        <div class="feature">
+          <i><img src="img/icon-live.webp" alt="" /></i>
+          <h5>লাইভ ক্লাস</h5>
+          <p>
+            দৈনিক লাইভ ক্লাসে অংশ নিয়ে বজাও রাখো<br />
+            রুটিনমাফিক পড়াশোনা
+          </p>
+        </div>
+        <div class="feature">
+          <i><img src="img/icon-edit.webp" alt="" /></i>
+          <h5>লেকচার শীট</h5>
+          <p>
+            নিমিষেই পেয়ে যাও সহায়ক লেকচার শীট এবং <br />
+            ইন্টার‍্যাক্টিভ বই
+          </p>
+        </div>
+        <div class="feature">
+          <i><img src="img/icon-result.webp" alt="" /></i>
+          <h5>দৈনিক ফলাফল ও লিডারবোর্ড</h5>
+          <p>
+            শেখার প্রতিযোগিতায় বন্ধুদের মাঝে নিজের <br />
+            অবস্থান দেখো লিডারবোর্ডে
+          </p>
+        </div>
+        <div class="feature">
+          <img src="img/icon-qa.webp" alt="" />
+          <h5>প্রশ্ন করো মন খুলে</h5>
+          <p>
+            তোমার যেকোনো জিজ্ঞাসায় পাচ্ছো এক্সপার্ট <br />
+            গাইডলাইন এক প্ল্যাটফর্মেই
+          </p>
         </div>
       </div>
     </div>
