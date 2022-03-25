@@ -624,17 +624,16 @@
   }
   .company a,
   .other a {
-    text-decoration: none;
-    color: black;
     font-size: 0.8rem;
   }
   .social h3 {
     font-size: 1rem;
   }
   .social ul li {
-    text-decoration: none;
-    list-style: none;
     font-size: 0.8rem;
+  }
+  .app h3 {
+    font-size: 1rem;
   }
 }
 /* footer section responsive  */
